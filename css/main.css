@@ -1,0 +1,142 @@
+body {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .main-nav {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  .main-nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-nav ul li {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .main-nav ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.25rem;
+    padding: 10px 0;
+  }
+  
+  .main-nav ul li a:hover {
+    background-color: #444;
+  }
+  
+  .banner {
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .main-content {
+    padding: 2rem 0;
+  }
+  
+  .owner {
+    padding: 2rem 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .contact-section form {
+    padding: 2rem 0;
+  }
+  
+  .contact-section label {
+    display: block;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-section input[type="text"],
+  .contact-section input[type="email"],
+  .contact-section textarea {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 1.25rem;
+  }
+  
+  .contact-section textarea {
+    min-height: 150px;
+    max-height: 150px;
+    height: 150px;
+    resize: none;
+  }
+  
+  .contact-section button {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.25rem;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contact-section button:hover {
+    background-color: #444;
+  }
+  
+  .site-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  .skip-link {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 1rem;
+    background-color: #fff;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.25rem;
+    z-index: 100;
+  }
+  
+  @media (min-width: 48em) {
+    .main-nav ul li {
+      flex: 1 0 200px;
+    }
+  }
+  
+  @media (min-width: 75em) {
+    .main-nav ul li {
+      flex: 1 0 250px;
+    }
+  }
